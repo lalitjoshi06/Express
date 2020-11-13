@@ -1,3 +1,11 @@
+/*
+{
+  "name": "Kosmos Scraper V1.1",
+  "id": "JD'z Provider Pack(JS)",
+  "version": 1,
+  "permaUrl": "https://raw.githubusercontent.com/JonathanAkaJD/Express/main/Providers.js"
+}
+*/
 {
   "Scraper-1": {
     "anime": {
