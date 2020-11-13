@@ -1,6 +1,6 @@
 /*
 {
-  "name": "Kosmos Scraper V1.1",
+  "name": "Express Scraper V1.4",
   "id": "JD'z Provider Pack(JS)",
   "version": 1,
   "permaUrl": "https://raw.githubusercontent.com/JonathanAkaJD/Express/main/Providers.js"
