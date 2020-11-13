@@ -1027,7 +1027,7 @@
         "base_url": "https://apibay.org",
         "fallback_urls": [],
         "response_type": "json",
-        "owner": "Aki0782",
+        "owner": "JD'z Provider Pack",
         "movie": {
             "query": "/q.php?q={query}&cat=207,202,201",
             "keywords": "{title} {year}"
@@ -1494,7 +1494,7 @@
         ],
         "base_url": "http://rutor.info",
         "response_type": "text",
-        "_owner": "Aki0782",
+        "_owner": "JD'z Provider Pack",
         "movie": {
             "query": "/search/{query}",
             "keywords": "{title} {year}"
@@ -1608,7 +1608,7 @@
         "base_url": "https://nyaa.si",
         "fallback_urls": [],
         "response_type": "text",
-        "_owner": "JayDee",
+        "_owner": "JD'z Provider Pack",
         "movie": {
             "query": "/?f=0&c=0_0&q={query}&s=seeders&o=desc",
             "keywords": "{title} {year}"
