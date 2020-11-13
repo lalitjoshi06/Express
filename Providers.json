@@ -876,8 +876,7 @@
       ":": ""
     }
   },
-  {
-    "Scraper-21": {
+  "Scraper-21": {
         "name": "Scraper-21",
         "enabled": true,
         "languages": [
