@@ -526,44 +526,49 @@
     }
   },
   "Scraper-13": {
-    "anime": {
-      "keywords": "{title} {episode}",
-      "query": ""
+        "name": "Scraper-13",
+        "enabled": true,
+        "languages": [
+            "en"
+        ],
+        "base_url": "https://solidtorrents.net/api/v1/search?q={query}&category=video&sort=seeders",
+        "response_type": "json",
+        "separator": "%20",
+        "movie": {
+            "query": "",
+            "keywords": "{title} {year}"
+        },
+        "episode": {
+            "query": "",
+            "keywords": "{title} {episodeCode}"
+        },
+        "season": {
+            "query": "",
+            "keywords": [
+                "{title} {seasonCode}",
+                "{title} season"
+            ]
+        },
+        "anime": {
+            "query": "",
+            "keywords": "{title} {absoluteNumber}"
+        },
+        "json_format": {
+            "results": "results",
+            "url": "magnet",
+            "title": "title",
+            "seeds": "swarm.seeders",
+            "peers": "swarm.leechers",
+            "size": "size",
+            "hash": "info_hash"
+        },
+        "title_replacement": {
+            ".": "",
+            ":": "",
+            "'": "",
+            "&": ""
+        }
     },
-    "base_url": "https://solidtorrents.net/api/v1/search?q={query}&category=video&sort=seeders",
-    "enabled": true,
-    "episode": {
-      "keywords": "{title} {episodeCode}",
-      "query": ""
-    },
-    "json_format": {
-      "peers": "swarm.leechers",
-      "results": "results",
-      "seeds": "swarm.seeders",
-      "size": "size",
-      "title": "title",
-      "url": "magnet"
-    },
-    "languages": [
-      "en"
-    ],
-    "movie": {
-      "keywords": "{title} {year}",
-      "query": ""
-    },
-    "name": "Scraper-13",
-    "response_type": "json",
-    "season": {
-      "keywords": "{title} {seasonCode}",
-      "query": ""
-    },
-    "title_replacement": {
-      "&": "",
-      "'": "",
-      ".": "",
-      ":": ""
-    }
-  },
   "Scraper-14": {
     "base_url": "https://pirateproxy.live",
     "enabled": true,
@@ -877,7 +882,51 @@
             "\"": ""
         }
     },
-  "Scraper-21": {
+"Scraper-21": {
+        "name": "Scraper-21",
+        "enabled": true,
+        "languages": [
+            "en"
+        ],
+        "base_url": "https://www.torrentdownload.info",
+        "response_type": "text",
+        "separator": "+",
+        "source_is_in_sub_page": true,
+        "movie": {
+            "query": "/search?q={query}",
+            "keywords": "{title} {year}"
+        },
+        "episode": {
+            "query": "/search?q={query}",
+            "keywords": "{title} {episodeCode}"
+        },
+        "season": {
+            "query": "/search?q={query}",
+            "keywords": [
+                "{title} {seasonCode}",
+                "{title} season"
+            ]
+        },
+        "anime": {
+            "query": "/search?q={query}",
+            "keywords": "{title} {absoluteNumber}"
+        },
+        "html_parser": {
+            "row": "doc.querySelectorAll('table:nth-of-type(2) tbody tr:not(:first-child)')",
+            "title": "row.querySelector('.tt-name a').textContent",
+            "peers": "row.querySelector('.tdleech').textContent.replace(',','')",
+            "seeds": "row.querySelector('.tdseed').textContent.replace(',','')",
+            "size": "row.querySelector('.tdnormal:nth-of-type(3)').textContent",
+            "url": "row.querySelector('.tt-name a').getAttribute('href')"
+        },
+        "title_replacement": {
+            ".": "",
+            ":": "",
+            "'": "",
+            "&": ""
+        }
+    },
+  "Scraper-22": {
     "anime": {
       "keywords": "{title} {episode}",
       "query": "/?v=&c=&q={query}"
@@ -906,7 +955,7 @@
       "keywords": "{title} {year}",
       "query": "/?v=&c=1&q={query}"
     },
-    "name": "Scraper-21",
+    "name": "Scraper-22",
     "response_type": "text",
     "season": {
       "keywords": "{title} {seasonCode}",
