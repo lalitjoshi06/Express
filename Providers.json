@@ -172,7 +172,7 @@
       "'s": "s"
     }
   },
-  "glodls": {
+  "Scraper-5": {
     "base_url": "https://glodls.to",
     "enabled": true,
     "episode": {
@@ -195,7 +195,7 @@
       "keywords": "{title} {year}",
       "query": "/search_results.php?search={query}&cat=1&incldead=0&inclexternal=0&lang=1&sort=size&order=desc"
     },
-    "name": "glodls",
+    "name": "Scraper-5",
     "response_type": "text",
     "season": {
       "keywords": "{title} {seasonCode}",
@@ -209,8 +209,8 @@
       ":": ""
     }
   },
-  "Scraper-5": {
-    "name": "Scraper-5",
+  "Scraper-6": {
+    "name": "Scraper-6",
     "enabled": true,
     "languages": [
       "it"
@@ -249,7 +249,7 @@
       "\"": ""
     }
   },
-  "Scraper-6": {
+  "Scraper-7": {
     "anime": {
       "keywords": "{title} {episode}",
       "query": "/usearch/{query}"
@@ -284,7 +284,7 @@
       "keywords": "{title} {year}",
       "query": "/usearch/{query}%20category:movies/"
     },
-    "name": "Scraper-6",
+    "name": "Scraper-7",
     "response_type": "text",
     "season": {
       "keywords": "{title} {seasonCode}",
@@ -297,7 +297,7 @@
       ":": ""
     }
   },
-  "Scraper-7": {
+  "Scraper-8": {
     "anime": {
       "keywords": "{title} {episode}",
       "query": "/search/anime/{query}"
@@ -327,7 +327,7 @@
       "keywords": "{title} {year}",
       "query": "/search/movies/{query}"
     },
-    "name": "Scraper-7",
+    "name": "Scraper-8",
     "response_type": "text",
     "season": {
       "keywords": "{title} {seasonCode}",
@@ -342,7 +342,7 @@
       ":": ""
     }
   },
-  "Scraper-8": {
+  "Scraper-9": {
     "base_url": "https://www.magnetdl.com",
     "enabled": true,
     "episode": {
@@ -365,7 +365,7 @@
       "keywords": "{title} {year}",
       "query": "/{titleFirstLetter}/{query}/"
     },
-    "name": "Scraper-8",
+    "name": "Scraper-9",
     "response_type": "text",
     "season": {
       "keywords": "{title} {seasonCode}",
@@ -377,7 +377,7 @@
       "'s": "s"
     }
   },
-  "Scraper-9": {
+  "Scraper-10": {
     "anime": {
       "keywords": "{title} {episode}",
       "query": "/recherche/{query}"
@@ -404,7 +404,7 @@
       "keywords": "{title} {year}",
       "query": "/recherche/{query}"
     },
-    "name": "Scraper-9",
+    "name": "Scraper-10",
     "response_type": "text",
     "season": {
       "keywords": [
@@ -420,8 +420,8 @@
       "'s": "s"
     }
   },
-  "Scraper-10": {
-    "name": "Scraper-10",
+  "Scraper-11": {
+    "name": "Scraper-11",
     "enabled": true,
     "languages": [
       "en"
@@ -460,8 +460,8 @@
     },
     "source_is_in_sub_page": false
   },
-  "Scraper-11": {
-    "name": "Scraper-11",
+  "Scraper-12": {
+    "name": "Scraper-12",
     "enabled": true,
     "languages": [
       "ru"
@@ -485,8 +485,8 @@
       "url": "row.querySelector('td:nth-child(2) a:nth-child(1)').getAttribute('href')"
     }
   },
-  "Scraper-12": {
-    "name": "Scraper-12",
+  "Scraper-13": {
+    "name": "Scraper-13",
     "enabled": true,
     "languages": [
       "en"
@@ -525,8 +525,8 @@
       "&": ""
     }
   },
-  "Scraper-13": {
-        "name": "Scraper-13",
+  "Scraper-14": {
+        "name": "Scraper-14",
         "enabled": true,
         "languages": [
             "en"
@@ -569,7 +569,7 @@
             "&": ""
         }
     },
-  "Scraper-14": {
+  "Scraper-15": {
     "base_url": "https://pirateproxy.live",
     "enabled": true,
     "episode": {
@@ -605,7 +605,7 @@
       "keywords": "{title} {year}",
       "query": "/s/?q={query}&page=0&&video=on&orderby=99"
     },
-    "name": "Scraper-14",
+    "name": "Scraper-15",
     "response_type": "text",
     "season": {
       "keywords": [
@@ -618,7 +618,7 @@
       "'s": "s"
     }
   },
-  "Scraper-15": {
+  "Scraper-16": {
     "base_url": "https://ww1.torrent9.to",
     "enabled": true,
     "episode": {
@@ -643,7 +643,7 @@
       ],
       "query": "/search_torrent/{query}.html"
     },
-    "name": "Scraper-15",
+    "name": "Scraper-16",
     "response_type": "text",
     "season": {
       "keywords": "{title} {seasonCode}",
@@ -655,7 +655,7 @@
       "'s": "s"
     }
   },
-  "Scraper-16": {
+  "Scraper-17": {
     "base_url": "https://torrentapi.org",
     "enabled": true,
     "episode": {
@@ -678,7 +678,7 @@
       "keywords": "{imdbId}",
       "query": "/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&format=json_extended&app_id=invictus&token={token}"
     },
-    "name": "Scraper-16",
+    "name": "Scraper-17",
     "response_type": "json",
     "season": {
       "keywords": [
@@ -702,7 +702,7 @@
     },
     "trust_results": true
   },
-  "Scraper-17": {
+  "Scraper-18": {
     "anime": {
       "keywords": "{title} {episode}",
       "query": ""
@@ -728,7 +728,7 @@
       "keywords": "{title} {year}",
       "query": ""
     },
-    "name": "Scraper-17",
+    "name": "Scraper-18",
     "response_type": "text",
     "season": {
       "keywords": "{title} {seasonCode}",
@@ -743,8 +743,8 @@
       ":": ""
     }
   },
-  "Scraper-18": {
-    "name": "Scraper-18",
+  "Scraper-19": {
+    "name": "Scraper-19",
     "enabled": true,
     "languages": [
       "en"
@@ -791,8 +791,8 @@
       "&": ""
     }
   },
-  "Scraper-19": {
-    "name": "Scraper-19",
+  "Scraper-20": {
+    "name": "Scraper-20",
     "enabled": true,
     "languages": [
       "en"
@@ -839,8 +839,8 @@
       "&": ""
     }
   },
-"Scraper-20": {
-        "name": "Scraper-20",
+"Scraper-21": {
+        "name": "Scraper-21",
         "enabled": true,
         "languages": [
             "en"
@@ -882,8 +882,8 @@
             "\"": ""
         }
     },
-"Scraper-21": {
-        "name": "Scraper-21",
+"Scraper-22": {
+        "name": "Scraper-22",
         "enabled": true,
         "languages": [
             "en"
@@ -926,7 +926,7 @@
             "&": ""
         }
     },
-  "Scraper-22": {
+  "Scraper-23": {
     "anime": {
       "keywords": "{title} {episode}",
       "query": "/?v=&c=&q={query}"
@@ -955,7 +955,7 @@
       "keywords": "{title} {year}",
       "query": "/?v=&c=1&q={query}"
     },
-    "name": "Scraper-22",
+    "name": "Scraper-23",
     "response_type": "text",
     "season": {
       "keywords": "{title} {seasonCode}",
