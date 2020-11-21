@@ -834,7 +834,50 @@
       "&": ""
     }
   },
-  "Scraper-20": {
+"Scraper-20": {
+        "name": "Scraper-20",
+        "enabled": true,
+        "languages": [
+            "en"
+        ],
+        "base_url": "http://7torr.com",
+        "fallback_urls": [],
+        "response_type": "text",
+        "movie": {
+            "query": "/search?q={query}",
+            "keywords": "{title} {year}"
+        },
+        "episode": {
+            "query": "/search?q={query}",
+            "keywords": "{title} {episodeCode}"
+        },
+        "season": {
+            "query": "/search?q={query}",
+            "keywords": [
+                "{title} {seasonCode}",
+                "{title} season"
+            ]
+        },
+        "anime": {
+            "query": "/search?q={query}",
+            "keywords": "{title} {episode}"
+        },
+        "separator": "+",
+        "html_parser": {
+            "row": "doc.querySelectorAll('tbody tr')",
+            "title": "row.querySelector('td:nth-child(1) .rtitle a').textContent",
+            "peers": "row.querySelector('td:nth-child(5)').textContent",
+            "seeds": "row.querySelector('td:nth-child(4)').textContent",
+            "size": "row.querySelector('td:nth-child(2)').textContent",
+            "url": "row.querySelector('td:nth-child(6) a').getAttribute('href')"
+        },
+        "source_is_in_sub_page": false,
+        "title_replacement": {
+            "'s": "s",
+            "\"": ""
+        }
+    },
+  "Scraper-21": {
     "anime": {
       "keywords": "{title} {episode}",
       "query": "/?v=&c=&q={query}"
@@ -863,7 +906,7 @@
       "keywords": "{title} {year}",
       "query": "/?v=&c=1&q={query}"
     },
-    "name": "Scraper-20",
+    "name": "Scraper-21",
     "response_type": "text",
     "season": {
       "keywords": "{title} {seasonCode}",
