@@ -971,7 +971,7 @@
   },
   "AnimeTosho": {
         "name": "AnimeTosho",
-        "enabled": true,
+        "enabled": false,
         "languages": [
             "en"
         ],
@@ -1020,7 +1020,7 @@
     },
     "anirena": {
         "name": "AniRena",
-        "enabled": true,
+        "enabled": false,
         "languages": [
             "en"
         ],
@@ -1066,7 +1066,7 @@
     },
         "nyaa": {
         "name": "Nyaa (anime)",
-        "enabled": true,
+        "enabled": false,
         "languages": [
             "en"
         ],
@@ -1109,7 +1109,7 @@
     },
     "nyaa2": {
         "name": "Nyaa2",
-        "enabled": true,
+        "enabled": false,
         "languages": [
             "en"
         ],
