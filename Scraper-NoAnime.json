@@ -50,6 +50,7 @@
       "'s": "s"
     }
   },
+"extratorrent":{"name":"ExtraTorrent","enabled":true,"languages":["en"],"base_url":"https://extratorrent.ag","response_type":"text","movie":{"query":"/search/?search={query}&new=1&x=0&y=0","keywords":"{title} {year}"},"episode":{"query":"/search/?search={query}&new=1&x=0&y=0","keywords":"{title} {episodeCode}"},"season":{"query":"/search/?search={query}&new=1&x=0&y=0","keywords":"{title} {seasonCode}"},"anime":{"query":"/search/?search={query}&new=1&x=0&y=0","keywords":"{title} {episode}"},"html_parser":{"row":"doc.querySelectorAll('table.tl tbody tr')","title":"row.querySelector('td.tli > a').textContent","peers":"row.querySelector('td:nth-child(7)').textContent","seeds":"row.querySelector('td:nth-child(6)').textContent","size":"row.querySelector('td:nth-child(5)').textContent","url":"row.querySelector('table.tl td:nth-child(1) > a').getAttribute('href')"},"title_replacement":{".":"",":":"","'":"","&":""}},
   "bitlord": {
     "anime": {
       "keywords": "{title} {episode}",
